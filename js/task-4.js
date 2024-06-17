@@ -3,7 +3,7 @@ function getShippingCost(country) {
     let priceChile = 250;
     let priceAustralia = 170;
     let priceJamaica = 120;
-    countryMessage = '';
+    let countryMessage = '';
 
     switch (country) {
         case 'China':
